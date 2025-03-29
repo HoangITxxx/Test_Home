@@ -1,0 +1,66 @@
+.container {
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover; /* Ảnh phủ đầy */
+  }
+  
+  .paragraph {
+    color: #fff;
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 280px;
+    margin-left: 100px;
+    position: relative;
+  }
+  
+  .button {
+    background-color: deepskyblue;
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 100px;
+  }
+  
+  /* Media queries cho mobile */
+  @media (max-width: 768px) {
+    .container {
+      height: 180px;
+      justify-content: start;
+    }
+    .image {
+    object-fit: contain; 
+    width: 100%;
+    height: auto;
+    }
+  
+    .paragraph {
+      font-size: 6px; 
+      width: 80%;
+      margin-bottom: 0px;
+      margin-top: 60px;
+      margin-left: 40px;
+      position: relative;
+    }
+  
+    .button {
+      font-size: 6px; 
+      background-color: deepskyblue;
+      margin-left: 40px;
+      height: fit-content;
+      padding: 4px 4px;
+    }
+  }

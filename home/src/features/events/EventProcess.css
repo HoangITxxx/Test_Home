@@ -1,0 +1,31 @@
+.event-process {
+    padding: 0px 0;
+  }
+  
+  .event-process-title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    color: #1e90ff;
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+  @media (max-width: 768px){
+    .event-process {
+      padding: 0px 0;
+    }
+    
+    .event-process-title {
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      margin: 0;
+      color: #1e90ff;
+      padding-top: 0px;
+      padding-bottom: 10px;
+    }
+    .content{
+      font-size: 10px;
+    }
+  }

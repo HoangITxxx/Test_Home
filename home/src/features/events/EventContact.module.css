@@ -1,0 +1,151 @@
+.ContainerContact {
+    text-align: center;
+    background-color: white;
+    padding: 0px 20px;
+    padding-bottom: 20px;
+  }
+  .eventContact{
+    background-color: rgb(230, 229, 228);
+  }
+  
+  .eventTitle {
+    font-size: 40px;
+    font-weight: bold;
+    color: #1d4ed8; 
+    padding-bottom: 10px;
+  }
+  
+  .eventDescription {
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 28px; 
+    color: #4b5563;
+    margin-top: 5px; 
+    max-width: 70%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center; 
+  }
+  
+  .eventHotline {
+    font-size: 10px;
+    color: #374151;
+    margin-top: 5px;
+  }
+  
+  .eventLink {
+    font-size: 18px;
+    display: block;
+    color: #1d4ed8;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .eventLink:hover {
+    text-decoration: underline;
+  }
+
+.InputContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.inputField {
+  width: 950px;
+  padding: 10px 40px 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 14px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.iconInsideInput {
+  font-size: 18px;
+  position: relative;
+  right: 80px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6320ff;
+  cursor: pointer;
+}
+  
+  .sendButton {
+    background-color: #1d4ed8;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s;
+  }
+  
+  .sendButton:hover {
+    background-color: #2563eb;
+  }
+
+  @media (max-width: 768px) {
+    .ContainerContact {
+        margin-top: 850px;
+        text-align: center;
+        background-color: white;
+        padding: 0px 20px;
+    }
+    .eventContact{
+    }
+  
+    .eventTitle {
+      font-size: 18px; 
+    }
+  
+    .eventDescription {
+      font-size: 12px; 
+      max-width: 90%; 
+    }
+  
+    .eventHotline {
+      font-size: 8px;
+    }
+  
+    .eventLink {
+      font-size: 10px;
+    }
+  
+    .inputField {
+      width: 75%; 
+      padding: 10px;
+      font-size: 10px;
+    }
+  
+    .iconInsideInput {
+      font-size: 13px;
+  position: relative;
+  right: 40px;
+  top: 30%;
+  transform: translateY(-60%);
+  color: #6320ff;
+  cursor: pointer;
+    }
+  
+    .sendButton {
+      background-color: #1d4ed8;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s;
+    }
+  }

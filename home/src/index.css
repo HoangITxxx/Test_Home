@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Đảm bảo menu desktop căn giữa */
+.desktop-menu .ant-menu {
+  display: flex;
+  justify-content: center;
+}
+
+/* Giảm khoảng cách giữa các mục menu */
+.desktop-menu .ant-menu-item,
+.desktop-menu .ant-menu-submenu {
+  margin: 0 10px !important; 
+}
+
+/* Responsive: Điều chỉnh logo trên mobile */
+@media (max-width: 768px) {
+  .logo img {
+    height: 30px;
+  }
+}
+.top-bar .ant-input::placeholder {
+  color: #fff !important; 
+}
+/* Ẩn menu desktop và icon mạng xã hội, hiện nút hamburger trên mobile */
+@media (max-width: 768px) {
+  .desktop-menu {
+    display: none !important;
+  }
+  .social-icons {
+    display: none !important;
+  }
+  .mobile-menu-button {
+    display: block !important;
+  }
+}
+
+/* Hiện menu desktop và icon mạng xã hội, ẩn nút hamburger trên desktop */
+@media (min-width: 769px) {
+  .desktop-menu {
+    display: flex !important; 
+  }
+  .social-icons {
+    display: flex !important; 
+  }
+  .mobile-menu-button {
+    display: none !important;
+  }
+
+}

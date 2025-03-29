@@ -1,0 +1,29 @@
+
+  .newsGrid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap; 
+    height: 500px;
+  }
+  .NewsListNewItems{
+    width: 30%; 
+    background-color: white;
+    padding: 0 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  .HeaderNews{
+    text-align: center;
+  }
+  .imgNews{
+    height: fit-content;
+  }
+  @media (max-width: 768px) {
+    .NewsListNewItems {
+      width: 100%;
+    }
+    .newsImage{
+        height: fit-content;
+    }
+  }
